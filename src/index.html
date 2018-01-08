@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Electron boilerplate</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/neon-glow.css">
+</head>
+
+<body>
+    <!-- <div class="container-fluid">
+			<header>
+				<h1 class="text-center">Monitr</h1>
+			</header>
+			<section class="main">
+
+				<div class="hal-9000 "> </div>
+
+			</section>
+			<footer></footer>
+		</div> -->
+    <div class="menu">
+        <p class="notify">Monitr</p>
+    </div>
+    <div class="list">
+<div class="coin">
+        <div id="price-container">
+            <p class="subtext">Current <span id="ticker"> BTC </span> USD</p>
+            <h3 id="price">$16,596.07</h3>
+        </div>
+        <div id="goal-container">
+            <p><img src="../assets/images/up.svg"><span id="targetPrice">  Choose a Target Price</span></p>
+        </div>
+        <div id="right-container">
+            <button class="btn btn-primary btn-shadow" id="notifyBtn">Notify me when..</button>
+        </div>
+    </div>
+</div>
+    <div class="edit">
+        <div class="buttons">
+            <button id="insert" href="#" title="Download Theme" class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">
+              <span class="fa fa-download mr-xl-2"></span>
+
+              Add a Coin
+            </button>
+            <button  id="delete" href="#"  class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">
+              <span class="fa fa-close mr-xl-2"></span>
+              Remove an Entry
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
