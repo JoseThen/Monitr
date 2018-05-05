@@ -44,7 +44,6 @@ function getBTC() {
         })
     console.log("found Price");
 
-
 }
 
 getBTC();
