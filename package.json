@@ -21,7 +21,7 @@
     "electron"
   ],
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.2",
     "electron-debug": "^1.0.0",
     "electron-reload": "^1.2.5"
   },
